@@ -1,10 +1,10 @@
 package = 'luarocks-addon-hooking'
 version = 'scm-1'
 source = {
-    url = 'git://github.com/xiaq/luarocks-addon-hook.git',
+    url = 'git://github.com/xiaq/luarocks-addon-hooking.git',
 }
 description = {
-    summary = 'An addon that exposes the hook functionality to rockspec.'
+    summary = 'An addon that exposes the hook functionality to rockspec.',
     license = 'BSD',
 }
 dependencies = {
