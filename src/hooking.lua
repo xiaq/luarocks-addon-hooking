@@ -5,7 +5,7 @@ local api = require("luarocks.api")
 local function hooking_callback(tbl)
     -- TODO: Check validity of hook names
     for k, v in pairs(tbl) do
-        api.register_hook(k, v)
+        api.register_hook(k, function() print(v()) end)
     end
 end
 
